@@ -1,0 +1,17 @@
+name: "Book Squid"
+description: "P2P book distribution"
+
+url: http://localhost:4000
+baseurl: /booksquid
+liveurl: http://booksquid.com
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      image: "booksquid.png"
+      layout: "default"
