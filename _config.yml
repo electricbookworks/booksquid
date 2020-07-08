@@ -1,9 +1,9 @@
-name: "Book Squid"
-description: "P2P book distribution"
+name: "P2P book distribution"
+description: "Buy multiple copies of books at half price, and keep them for others to buy from you."
 
 url: http://localhost:4000
-baseurl: /booksquid
-liveurl: http://booksquid.com
+baseurl: /p2p-book-distribution
+liveurl: http://p2p.electricbookworks.com
 markdown: kramdown
 permalink: pretty
 highlighter: rouge
@@ -13,5 +13,5 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      image: "booksquid.png"
+      image: "p2p-book-distribution.png"
       layout: "default"
